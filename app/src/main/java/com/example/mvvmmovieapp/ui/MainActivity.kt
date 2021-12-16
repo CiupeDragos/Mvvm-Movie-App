@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.bottomNavigation.setupWithNavController(navController)
 
+        //Test comment for git
+
         setupActionBarWithNavController(navController)
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
